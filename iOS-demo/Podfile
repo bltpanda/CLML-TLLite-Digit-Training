@@ -1,0 +1,9 @@
+platform :ios, '13.0'
+
+target 'DigitClassifier' do
+  use_frameworks!
+  
+  pod 'Sketch'
+  pod 'TensorFlowLiteSwift', '~> 0.0.1-nightly', :subspecs => ['Metal']
+  pod 'TensorFlowLiteSelectTfOps', '~> 0.0.1-nightly'
+end
