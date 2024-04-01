@@ -1,0 +1,7 @@
+platform :ios, '13.0'
+
+target 'DigitClassifier' do
+  use_frameworks!
+  
+  pod 'Sketch'
+end
